@@ -1,0 +1,46 @@
+html{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(22,44,68)
+    ,rgb(44, 123, 143));
+    height:100vh;}
+.cont-tablero{
+    border-radius: 5px;
+    width: 560px;
+    height: 560px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 6px 8px rgb(108, 189, 226),
+    0px 0px 0px 16px rgba(42, 61, 70, 0.308);
+    box-sizing: content-box;
+    cursor: pointer;
+}
+.cont-tablero .fila-tablero{
+    display: flex;
+    
+}
+
+.cont-tablero .fila-tablero .col-tab {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    user-select: none;
+    font-size: 55px;
+    color: rgb(9, 31, 46);
+    text-shadow: whitesmoke;
+    border-radius: 3.5px;
+}
+.cont-tablero .fila-tablero .col-tab-black{
+    background-color: rgb(96, 130, 138);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    user-select: none;
+    font-size: 55px;
+    color: rgb(9, 31, 46);
+    text-shadow: turquoise;
+    
+}
